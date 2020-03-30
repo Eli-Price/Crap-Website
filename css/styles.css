@@ -1,0 +1,66 @@
+header{text-align: center; line-height: 0.75em; margin-top: 80px;}
+body{background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);}
+ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    list-style-type: none;}
+    
+    li{
+        float: left; 
+        border-right: 1px solid #bbbbbb;
+        }
+
+    li:first-child{border-left: 1px solid #bbbbbb}
+
+    li a{
+        display: block;
+        color:white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;  }
+
+
+
+    .nav_buttons {
+        background-color: #111;
+        }
+    
+    .nav_buttons:hover{
+        background-color: orangered;
+    }
+
+    main{
+        padding-left: 2%; 
+        margin-top: 0;}
+    
+        .jumptospots{font-size: 0px;}/*how i originally did navigation*/
+    
+        .section_titles{
+            width: 30%;}
+        
+        .main_info{
+            background-color:slategrey;
+            max-width: 100%;
+            text-align: justify;}
+        
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+        padding: 0px;}
+    
+    .grid-item{
+        margin-top: 0em;
+        padding: 20px;
+        font-size: 1em;
+        text-align: center;
+        background-color: rgb(255, 218, 9);
+        border:1px solid black;
+        border-radius: 15px;
+        padding-right: 100px;}
+
+h2{text-align: center;}
